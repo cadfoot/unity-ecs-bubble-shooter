@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e13a221eac7a3468facbd01b4d39e182, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  _boardSize: {x: 6, y: 11}
+  _bubbleView: {fileID: 5966502574797495775, guid: fa38ec85819cc452ea4059912b611d1c,
+    type: 3}
+  _bubbleData:
+  - Number: 2
+    Color:
+      serializedVersion: 2
+      rgba: 4288901859
+  - Number: 4
+    Color:
+      serializedVersion: 2
+      rgba: 4281744316
+  - Number: 8
+    Color:
+      serializedVersion: 2
+      rgba: 4283416051
+  - Number: 16
+    Color:
+      serializedVersion: 2
+      rgba: 4282019309
+  - Number: 32
+    Color:
+      serializedVersion: 2
+      rgba: 4286829169
+  - Number: 64
+    Color:
+      serializedVersion: 2
+      rgba: 4283296170
+  - Number: 128
+    Color:
+      serializedVersion: 2
+      rgba: 4293901917
+  - Number: 256
+    Color:
+      serializedVersion: 2
+      rgba: 4292642627
+  - Number: 512
+    Color:
+      serializedVersion: 2
+      rgba: 4285215185
+  - Number: 1024
+    Color:
+      serializedVersion: 2
+      rgba: 4293286004
+  - Number: 2048
+    Color:
+      serializedVersion: 2
+      rgba: 4278190080
+  _rowsMax: 6
+  _rowsMin: 4
+  _mergePopupText: {fileID: 7260120582886033103, guid: 1122c979bec4045b4bf67bde99d23460,
+    type: 3}
+  _bubbleMoveSpeed: 7
+  _bubbleFlySpeed: 20
